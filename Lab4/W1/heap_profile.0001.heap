@@ -1,0 +1,74 @@
+heap profile:      3: 32001024 [     3: 32001024] @ heapprofile
+     1: 16000000 [     1: 16000000] @ 0x55c1994ef310 0x55c1994ef112 0x7f02c784624a 0x7f02c7846305 0x55c1994ef231
+     1: 16000000 [     1: 16000000] @ 0x55c1994ef310 0x55c1994ef11f 0x7f02c784624a 0x7f02c7846305 0x55c1994ef231
+     1:     1024 [     1:     1024] @ 0x7f02c78948cc 0x7f02c78a20b0 0x7f02c78a1478 0x7f02c78a063e 0x7f02c787b50e 0x7f02c787165b 0x55c1994ef151 0x7f02c784624a 0x7f02c7846305 0x55c1994ef231
+
+MAPPED_LIBRARIES:
+55c1994ee000-55c1994ef000 r--p 00000000 00:00 8132956     /home/fernando/Documents/HPC/Lab4/W1/workshop01
+55c1994ef000-55c1994f0000 r-xp 00001000 00:00 8132956     /home/fernando/Documents/HPC/Lab4/W1/workshop01
+55c1994f0000-55c1994f1000 r--p 00002000 00:00 8132956     /home/fernando/Documents/HPC/Lab4/W1/workshop01
+55c1994f1000-55c1994f2000 r--p 00002000 00:00 8132956     /home/fernando/Documents/HPC/Lab4/W1/workshop01
+55c1994f2000-55c1994f3000 rw-p 00003000 00:00 8132956     /home/fernando/Documents/HPC/Lab4/W1/workshop01
+55c19a7ea000-55c19d972000 rw-p 00000000 00:00 0           [heap]
+7f02c7390000-7f02c7600000 rw-p 00000000 00:00 0           
+7f02c7600000-7f02c7699000 r--p 00000000 00:00 6056984     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7f02c7699000-7f02c779a000 r-xp 00099000 00:00 6056984     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7f02c779a000-7f02c7809000 r--p 0019a000 00:00 6056984     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7f02c7809000-7f02c7814000 r--p 00209000 00:00 6056984     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7f02c7814000-7f02c7817000 rw-p 00214000 00:00 6056984     /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30
+7f02c7817000-7f02c781a000 rw-p 00000000 00:00 0           
+7f02c781f000-7f02c7845000 r--p 00000000 00:00 6030850     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f02c7845000-7f02c799a000 r-xp 00026000 00:00 6030850     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f02c799a000-7f02c79ed000 r--p 0017b000 00:00 6030850     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f02c79ed000-7f02c79f1000 r--p 001ce000 00:00 6030850     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f02c79f1000-7f02c79f3000 rw-p 001d2000 00:00 6030850     /usr/lib/x86_64-linux-gnu/libc.so.6
+7f02c79f3000-7f02c7a00000 rw-p 00000000 00:00 0           
+7f02c7a00000-7f02c7a15000 r--p 00000000 00:00 6039994     /usr/lib/x86_64-linux-gnu/libtcmalloc.so.4.5.10
+7f02c7a15000-7f02c7a3b000 r-xp 00015000 00:00 6039994     /usr/lib/x86_64-linux-gnu/libtcmalloc.so.4.5.10
+7f02c7a3b000-7f02c7a4b000 r--p 0003b000 00:00 6039994     /usr/lib/x86_64-linux-gnu/libtcmalloc.so.4.5.10
+7f02c7a4b000-7f02c7a4c000 r--p 0004a000 00:00 6039994     /usr/lib/x86_64-linux-gnu/libtcmalloc.so.4.5.10
+7f02c7a4c000-7f02c7a4e000 rw-p 0004b000 00:00 6039994     /usr/lib/x86_64-linux-gnu/libtcmalloc.so.4.5.10
+7f02c7a4e000-7f02c7c04000 rw-p 00000000 00:00 0           
+7f02c7c10000-7f02c7c75000 rw-p 00000000 00:00 0           
+7f02c7c75000-7f02c7c79000 r--p 00000000 00:00 6056400     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f02c7c79000-7f02c7c96000 r-xp 00004000 00:00 6056400     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f02c7c96000-7f02c7ca2000 r--p 00021000 00:00 6056400     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f02c7ca2000-7f02c7ca3000 r--p 0002d000 00:00 6056400     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f02c7ca3000-7f02c7ca4000 rw-p 0002e000 00:00 6056400     /usr/lib/x86_64-linux-gnu/liblzma.so.5.4.1
+7f02c7ca4000-7f02c7cb4000 r--p 00000000 00:00 6030853     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f02c7cb4000-7f02c7d27000 r-xp 00010000 00:00 6030853     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f02c7d27000-7f02c7d81000 r--p 00083000 00:00 6030853     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f02c7d81000-7f02c7d82000 r--p 000dc000 00:00 6030853     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f02c7d82000-7f02c7d83000 rw-p 000dd000 00:00 6030853     /usr/lib/x86_64-linux-gnu/libm.so.6
+7f02c7d83000-7f02c7d84000 r--p 00000000 00:00 6030862     /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f02c7d84000-7f02c7d85000 r-xp 00001000 00:00 6030862     /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f02c7d85000-7f02c7d86000 r--p 00002000 00:00 6030862     /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f02c7d86000-7f02c7d87000 r--p 00002000 00:00 6030862     /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f02c7d87000-7f02c7d88000 rw-p 00003000 00:00 6030862     /usr/lib/x86_64-linux-gnu/libpthread.so.0
+7f02c7d88000-7f02c7d8a000 rw-p 00000000 00:00 0           
+7f02c7d8a000-7f02c7d8d000 r--p 00000000 00:00 6057097     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f02c7d8d000-7f02c7d97000 r-xp 00003000 00:00 6057097     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f02c7d97000-7f02c7d9a000 r--p 0000d000 00:00 6057097     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f02c7d9a000-7f02c7d9b000 r--p 0000f000 00:00 6057097     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f02c7d9b000-7f02c7d9c000 rw-p 00010000 00:00 6057097     /usr/lib/x86_64-linux-gnu/libunwind.so.8.0.1
+7f02c7d9c000-7f02c7da6000 rw-p 00000000 00:00 0           
+7f02c7da6000-7f02c7da9000 r--p 00000000 00:00 6055887     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f02c7da9000-7f02c7dc0000 r-xp 00003000 00:00 6055887     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f02c7dc0000-7f02c7dc4000 r--p 0001a000 00:00 6055887     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f02c7dc4000-7f02c7dc5000 r--p 0001d000 00:00 6055887     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f02c7dc5000-7f02c7dc6000 rw-p 0001e000 00:00 6055887     /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f02c7dc6000-7f02c7dcb000 r--p 00000000 00:00 6039993     /usr/lib/x86_64-linux-gnu/libprofiler.so.0.5.5
+7f02c7dcb000-7f02c7dd2000 r-xp 00005000 00:00 6039993     /usr/lib/x86_64-linux-gnu/libprofiler.so.0.5.5
+7f02c7dd2000-7f02c7dd6000 r--p 0000c000 00:00 6039993     /usr/lib/x86_64-linux-gnu/libprofiler.so.0.5.5
+7f02c7dd6000-7f02c7dd7000 r--p 0000f000 00:00 6039993     /usr/lib/x86_64-linux-gnu/libprofiler.so.0.5.5
+7f02c7dd7000-7f02c7dd8000 rw-p 00010000 00:00 6039993     /usr/lib/x86_64-linux-gnu/libprofiler.so.0.5.5
+7f02c7dd8000-7f02c7ddd000 rw-p 00000000 00:00 0           
+7f02c7de0000-7f02c7df4000 rw-p 00000000 00:00 0           
+7f02c7df4000-7f02c7df5000 r--p 00000000 00:00 6030847     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f02c7df5000-7f02c7e1a000 r-xp 00001000 00:00 6030847     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f02c7e1a000-7f02c7e24000 r--p 00026000 00:00 6030847     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f02c7e24000-7f02c7e26000 r--p 00030000 00:00 6030847     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f02c7e26000-7f02c7e28000 rw-p 00032000 00:00 6030847     /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7ffd77881000-7ffd778a2000 rw-p 00000000 00:00 0           [stack]
+7ffd77971000-7ffd77975000 r--p 00000000 00:00 0           [vvar]
+7ffd77975000-7ffd77977000 r-xp 00000000 00:00 0           [vdso]

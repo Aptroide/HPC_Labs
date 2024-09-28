@@ -1,0 +1,10 @@
+File: workshop01
+Type: space
+Showing nodes accounting for 30.52MB, 100% of 30.52MB total
+Dropped 6 nodes (cum <= 0.15MB)
+      flat  flat%   sum%        cum   cum%
+   30.52MB   100%   100%    30.52MB   100%  generate_random_array
+         0     0%   100%    30.52MB   100%  __libc_init_first
+         0     0%   100%    30.52MB   100%  __libc_start_main
+         0     0%   100%    30.52MB   100%  _start
+         0     0%   100%    30.52MB   100%  main

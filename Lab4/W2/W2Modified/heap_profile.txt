@@ -1,0 +1,10 @@
+File: workshop02
+Type: space
+Showing nodes accounting for 91.60MB, 100% of 91.60MB total
+Dropped 6 nodes (cum <= 0.46MB)
+      flat  flat%   sum%        cum   cum%
+   91.60MB   100%   100%    91.60MB   100%  allocate_matrix
+         0     0%   100%    91.60MB   100%  __libc_init_first
+         0     0%   100%    91.60MB   100%  __libc_start_main
+         0     0%   100%    91.60MB   100%  _start
+         0     0%   100%    91.60MB   100%  main

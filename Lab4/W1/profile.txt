@@ -1,0 +1,12 @@
+File: workshop01
+Type: cpu
+Showing nodes accounting for 80ms, 100% of 80ms total
+      flat  flat%   sum%        cum   cum%
+      50ms 62.50% 62.50%       70ms 87.50%  random
+      20ms 25.00% 87.50%       20ms 25.00%  random_r
+      10ms 12.50%   100%       80ms   100%  rand
+         0     0%   100%       80ms   100%  __libc_init_first
+         0     0%   100%       80ms   100%  __libc_start_main
+         0     0%   100%       80ms   100%  _start
+         0     0%   100%       80ms   100%  generate_random_array
+         0     0%   100%       80ms   100%  main

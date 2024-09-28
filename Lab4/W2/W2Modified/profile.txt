@@ -1,0 +1,13 @@
+File: workshop02
+Type: cpu
+Showing nodes accounting for 5340ms, 99.07% of 5390ms total
+Dropped 14 nodes (cum <= 26.95ms)
+      flat  flat%   sum%        cum   cum%
+    5240ms 97.22% 97.22%     5240ms 97.22%  multiply_matrices_ikj
+     100ms  1.86% 99.07%      110ms  2.04%  random
+         0     0% 99.07%     5380ms 99.81%  __libc_init_first
+         0     0% 99.07%     5380ms 99.81%  __libc_start_main
+         0     0% 99.07%     5380ms 99.81%  _start
+         0     0% 99.07%      110ms  2.04%  generate_matrix
+         0     0% 99.07%     5380ms 99.81%  main
+         0     0% 99.07%      110ms  2.04%  rand

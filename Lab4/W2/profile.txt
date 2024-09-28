@@ -1,0 +1,10 @@
+File: workshop02
+Type: cpu
+Showing nodes accounting for 48.45s, 99.71% of 48.59s total
+Dropped 6 nodes (cum <= 0.24s)
+      flat  flat%   sum%        cum   cum%
+    48.45s 99.71% 99.71%     48.45s 99.71%  multiply_matrices_ijk
+         0     0% 99.71%     48.57s   100%  __libc_init_first
+         0     0% 99.71%     48.57s   100%  __libc_start_main
+         0     0% 99.71%     48.57s   100%  _start
+         0     0% 99.71%     48.57s   100%  main
